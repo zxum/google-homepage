@@ -3,31 +3,36 @@
     <head>
         <title>Google Homepage
         </title>
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="/home/kam/the_odin_project/google-homepage/main.css">
     </head>
     <body>
         <nav>
-            <ul>
-                <li class=leftSide>About</li>
-                <li class=leftSide>Store</li>
-                <li class=rightSide>Gmail</li>
-                <li class=rightSide>Images</li>
+            <ul class="topNav">
+                <li class="leftSide">About</li>
+                <li class="leftSide">Store</li>
+                <li class="rightSide" id="signInbutton">Sign In</li>
+                <li class="rightSide">Images</li>
+                <li class="rightSide">Gmail</li>
             </ul>
         </nav>
 
-        <img class=main src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-        <form class=main>
+
+        <img class="glogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    <div class="mainsection">
+        <form class="searchbox">
             <input type="text"><br>
             <input type="submit" name="Google Search" value="Google Search">
             <input type="submit" name="I'm Feeling Lucky" value="I'm Feeling Lucky">
         </form>
-
+    </div>
         <footer>
-            <ul>
-                <li>Advertising</li>
-                <li>Business</li>
-                <li>How Search works</li>
-                <li class=rightSide>Privacy</li>
+            <ul class="footNav">
+                <li class="leftSide">Advertising</li>
+                <li class="leftSide">Business</li>
+                <li class="leftSide">How Search Works</li>
+                <li class="rightSide">Settings</li>
+                <li class="rightSide">Terms</li>
+                <li class="rightSide">Privacy</li>
             </ul>
         </footer>
     </body>
